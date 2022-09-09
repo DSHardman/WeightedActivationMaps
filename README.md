@@ -19,5 +19,5 @@ Figure 8c's multi-touch responses are stored in _MultiTouch/_, with A correspond
 
 **sensorTrain.m** trains a feedforward neural network and provides feedback about its performance by calling the **calculateErrors.m** function.
 
-**calcEIT()** calls OpenEIT/reconstruction/pyeit/**calcEIT.py** and plots its output, using one of three available reconstruction algorithms. The brightest pixel is taken to be the localization prediction and, if the _position_ argument is provided, this is compared to the known location.
+**calcEIT.m** calls OpenEIT/reconstruction/pyeit/**calcEIT.py** and plots its output, using one of three available reconstruction algorithms. The brightest pixel is taken to be the localization prediction and, if the _position_ argument is provided, this is compared to the known location.
 
